@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+
+html{
+	height:100%;
+}
+
+body{
+	height:100%;
+	margin-top: -1%;	
+}
+
+.home{
+	background-image:url("../images/fundo_elipses.png");
+	background-repeat:no-repeat;
+	height: 95%;
+}
+.header{
+	height: 10%;
+}
+.logotipo{	
+	margin-top: 1%;
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+		
+}
+.menu{
+	margin-top:-7%;
+	background-color:	rgba(25, 29, 40, .5);
+	width: 100%;
+	height: 100%;	
+}
+nav{
+	height:100%;
+	margin-left:40%;
+	margin-top: 4%;
+	list-style:none;
+}
+nav ul li{
+		margin-top:3%;
+		display: inline-table;
+		margin-left: 2%;
+
+	}
+nav ul li a{
+	font-size:small;
+	color: white;
+	text-decoration: none;
+}
+.maluco{
+	float:left;
+	width: 49%;
+	display: inline;
+}	
+.maluco img{
+	margin-left:35%;
+	
+}
+.caixa{
+	text-align:center;
+	width:49%;
+	float:right;
+	margin-top:10%;	
+	color:white;
+	display: inline;
+	
+}
+.caixa p{
+	font-size: x-large;
+}
+.btn-tamanho{
+		width: 200px;
+		height: 50px;
+		background-color: transparent;
+		color:white;
+		font-size: x-large;
+}
+.vantagens img{
+	width: 90%;
+	margin-left: 5%;
+	
+}
+.profissional h2{ 
+	margin-top: -25%;
+	margin-left: 25%;
+	color:white;
+}
+.profissional p{ 
+	margin-left: 25%;
+	color:white;
+}
+.profissional button{
+	background-color: #398b9f;
+	margin-top:3%;
+	margin-left: 30%;
+}
+.investidor h2{
+	margin-top: -23%;
+	margin-left: 50%;
+	color: white;
+}
+.investidor p{
+	margin-left: 50%;
+	color: white;
+}
+.investidor button{
+	background-color:#5e7744;
+	margin-top: 3%;
+	margin-left: 55%;
+}
+.portifolio{
+	margin-top: 15%;
+	height: 100%;
+	margin-left: 3%;
+}
+.projetos{
+	margin-top:1%;
+	width: 24%;
+	height: 20%;
+	display: inline-table;
+}
+.projetos a{
+  display: block;
+  overflow: hidden;  
+}
+.projetos img{
+	width: 100%;
+	height: 100%;
+	 -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      	-ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.projetos img:HOVER {
+	 -webkit-filter: blur(5px);
+	  -moz-filter: blur(5px);
+	   -o-filter: blur(5px);
+	    -ms-filter: blur(5px);
+	     filter: blur(5px);
+}
+	
