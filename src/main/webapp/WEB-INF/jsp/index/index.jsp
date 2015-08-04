@@ -11,20 +11,9 @@
 	href="<c:url value="/bootstrap/css/bootstrap.css"/>">
 <link rel="stylesheet" type="text/css"
 	href="<c:url value="/css/style.css"/>">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 <title>Nigra</title>
 
-<script language="javascript">
-
-	$('.hover').mouseover(function() {
-	  $('.link').css("visibility","visible");
-	});
-
-	$('.hover').mouseout(function() {
-	  $('.link').css("visibility","hidden");
-	});
-
-</script>
 </head>
 <body>
 	<div class="home">
@@ -50,7 +39,7 @@
 		</div>
 	
 		<div class="maluco">
-			<img src="<c:url value="/images/consultor.png"/>" width="300" height="550"/>
+			<img src="<c:url value="/images/consultor.png"/>" />
 		</div>
 		<div class="caixa">
 			<h1>Lorem ipsum dolor sit amet</h1>
@@ -61,6 +50,7 @@
 			</p>
 			<button type="button" class="btn btn-default btn-tamanho">Contratar</button>
 		</div>
+			
 	</div>
 	<div class="vantagens">
 		<div class="profissional">
@@ -86,9 +76,9 @@
 	</div>
 	<div class="portifolio">
 		<div class="projetos">
-			<p class="link">
-				<img src="<c:url value="/images/img-projeto.png"/>" class="hover"/>
-			</p>
+			<a href="#">
+				<img src="<c:url value="/images/img-projeto.png"/>"/>
+			</a>
 		</div>
 		<div class="projetos">
 			<a href="#">
@@ -146,7 +136,52 @@
 			</a>
 		</div>
 	</div>
-	
+	<div class="parceiros">
+		<div class="titulo-parceiros">
+			<hr /><span class="texto-parceiros">Parceiros</span><hr />
+		</div>
+		<div class="parceiros-img">
+			<img src="<c:url value="/images/parceiros-1.png"/>"/>
+			<img src="<c:url value="/images/parceiros-2.png"/>"/>
+			<img src="<c:url value="/images/parceiros-3.png"/>"/>
+			<img src="<c:url value="/images/parceiros-4.png"/>"/>
+			<img src="<c:url value="/images/parceiros-5.png"/>"/>
+			<img src="<c:url value="/images/parceiros-6.png"/>"/>
+			<img src="<c:url value="/images/parceiros-7.png"/>"/>
+			<img src="<c:url value="/images/parceiros-8.png"/>"/>
+			<img src="<c:url value="/images/parceiros-9.png"/>"/>
+		</div>
+	</div>
+	<div class="rodape">
+		<div class="logo">
+			<img src="<c:url value="/images/puma-nigra.png"/>"/>
+		</div>
+		<div class="contato">
+			<h3>NIGRA</h3>
+			<span>
+				+55 61 3493-4333<br />
+				blabla@atendimento.nigra.com.br
+			</span>
+		</div>
+		<div class="news">
+			<h3>RECEBA NOVIDADES</h3>
+			<input type="text">
+		</div>
+		<div class="redes-sociais">
+			<h3>ACOMPANHE-NOS</h3>
+			<img src="<c:url value="/images/facebook.png"/>"/>
+			<img src="<c:url value="/images/linkedin.png"/>"/>
+			<img src="<c:url value="/images/google-plus.png"/>"/>
+			<img src="<c:url value="/images/twitter.png"/>"/>
+			<img src="<c:url value="/images/youtube.png"/>"/>
+		</div>
+		<div class="volta-topo">
+			<img src="<c:url value="/images/topo.png"/>"/>
+		</div>
+		<div class="copy-right">
+			<h6>Nigra 2015. Todos os direitos reservados</h6>
+		</div>
+	</div>
 	
 </body>
 </html>
